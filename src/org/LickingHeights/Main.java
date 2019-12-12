@@ -14,6 +14,11 @@ public class Main {
         int[] array = createNumberArray(size, lowestnumber, highestNumber);
 
         Pattern1();
+        Pattern2();
+        Pattern3();
+        Pattern4();
+        Pattern5();
+        
     }
 
     public static int[] createNumberArray(int size, int lowestNumber, int highestNumber) {
@@ -89,7 +94,7 @@ public class Main {
 
             for (int columns = 1; columns <=rows; columns++) {
 
-                
+
                 System.out.print(columns);
             }
 

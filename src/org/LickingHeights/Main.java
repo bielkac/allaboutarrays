@@ -93,6 +93,7 @@ public class Main {
         for (int rows = 1; rows <=6; rows ++) {
 
             for (int columns = 1; columns <=rows; columns++) {
+                fujwfiujfwfdwh
 
 
                 System.out.print(columns);
@@ -101,7 +102,6 @@ public class Main {
             System.out.println();
         }
     }
-    idddiujhdhiujqddiuf
 }
 
 

@@ -18,7 +18,7 @@ public class Main {
         Pattern3();
         Pattern4();
         Pattern5();
-        
+
     }
 
     public static int[] createNumberArray(int size, int lowestNumber, int highestNumber) {

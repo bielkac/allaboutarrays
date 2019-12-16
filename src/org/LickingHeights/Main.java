@@ -8,21 +8,25 @@ public class Main {
         // write your code here
         int size = 10;
         int lowestnumber = 0;
-        int highestNumber = 10 ;
+        int highestNumber = 10;
 
 
         int[] array = createNumberArray(size, lowestnumber, highestNumber);
-
-        Pattern1();
-        Pattern2();
-        Pattern3();
-        Pattern4();
-        Pattern5();
+        String[] places= {"Dubai", " my closet", " the kitchen", " restroom"," class"};
+        String[] adjectives = {" cool", " nice", " cold", " hot"};
+        String[] people = {" Michael Jordan", " Adam Sandler"," Bielka Cordero"," Kanye West"};
+        String[] verbs= {" run "," swim"," walk", " jump"};
+        String[] times={ " 12:00 AM ","2:30 AM","3:45 AM","5:15 AM"};
+        String[] things= {"lamp","tree"," phone","pencil"};
+//        Pattern1();
+//        Pattern2();
+//        Pattern3();
+//        Pattern4();
+//        Pattern5();
 
     }
 
     public static int[] createNumberArray(int size, int lowestNumber, int highestNumber) {
-        int[] array = new int[size];
 
         //fill with random values
         for (int i = 0; i < size; i++) {
@@ -37,11 +41,16 @@ public class Main {
         }
     }
 
-    public static int createRandomNumber(int lowestNumber,int highestNumber) {
+    public static int createRandomNumber(int lowestNumber, int highestNumber) {
 
         int number = (int) (Math.random() * (highestNumber - lowestNumber + 1)) + lowestNumber;
+
+
         return number;
     }
+
+
+
 
     public static void Pattern1() {
         for (int rows = 0; rows < 6; rows++) {
@@ -93,7 +102,7 @@ public class Main {
         for (int rows = 1; rows <=6; rows ++) {
 
             for (int columns = 1; columns <=rows; columns++) {
-                fujwfiujfwfdwh
+
 
 
                 System.out.print(columns);
@@ -102,6 +111,6 @@ public class Main {
             System.out.println();
         }
     }
-}
+}}
 
 
